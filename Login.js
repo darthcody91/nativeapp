@@ -13,7 +13,10 @@ export default function Login(props){
                 alert("HI CODY!");
             }}></Button>
             <Button title="Matt Shank" onPress={()=>{
-                alert("hello Matt Shank");
+                alert("Hello Matt Shank");
+            }}></Button>
+            <Button title="Walter Taylor" onPress={()=>{
+                alert("Hello Walter Taylor");
             }}></Button>
         </View>
 
