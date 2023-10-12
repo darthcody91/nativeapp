@@ -9,22 +9,15 @@ export default function Login(props){
             <Button title="Josh Dalton" onPress={()=>{
                 Alert.alert("Hello Josh Dalton!");
             }}></Button>
-        </View>
-
-    );
-}
-
-export default function Login2(props){
-    return(
-        <View style={styles.login}>
-            <Text>This is the Login Screen</Text>
-            <Button title="Log In" onPress={()=>{
-                console.log("Hello Walter")
+            <Button title="CODY THOMAS" onPress={()=>{
+                Alert.alert("HI CODY!");
             }}></Button>
         </View>
 
     );
 }
+
+
 
 const styles = StyleSheet.create({
     login: {
