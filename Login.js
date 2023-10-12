@@ -11,6 +11,18 @@ export default function Login(props){
     );
 }
 
+export default function Login2(props){
+    return(
+        <View style={styles.login}>
+            <Text>This is the Login Screen</Text>
+            <Button title="Log In" onPress={()=>{
+                console.log("Hello Walter")
+            }}></Button>
+        </View>
+
+    );
+}
+
 const styles = StyleSheet.create({
     login: {
         flexDirection: 'row',
