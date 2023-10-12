@@ -27,11 +27,11 @@ export default function Login(props){
 
 const styles = StyleSheet.create({
     login: {
-        flexDirection: 'row',
+        flexDirection: 'wrap',
         width: '100%',
         justifyContent: 'space-between',
         backgroundColor: 'green',
-        height: '12%',
+        height: 'flex',
         alignItems: 'flex-end',
         paddingBottom: 5,
         paddingLeft: 10,
