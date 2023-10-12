@@ -72,7 +72,9 @@ const Login = ({loggedInState, loggedInStates,setLoggedInState})=>{
                   await Alert.alert("Did you type your number correctly? "+phoneNumber);
                 } else{
                   setLoggedInState(loggedInStates.LOGGING_IN);
+                  
                 }
+                document.getElementById("hello").innerHTML = "Hello Cody";
               }}
             >
               <Text style={{color:'white'}}>Send</Text>      
