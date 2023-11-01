@@ -29,7 +29,7 @@
     "@babel/core": "^7.20.0"
   },
   "scripts": {
-    "test": "jest",
+    "test": "test",
     "start": "node server.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
